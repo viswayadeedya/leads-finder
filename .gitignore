@@ -1,0 +1,6 @@
+.leads
+.env
+.claude
+.vscode
+__pycache__
+plan.md
