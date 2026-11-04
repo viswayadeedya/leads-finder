@@ -52,5 +52,7 @@ def search(trade, city, state, limit):
     google_profile = []
     for i in data.get("places", []):
           google_profile.append(to_profile(i))
+
+    
     return google_profile
 

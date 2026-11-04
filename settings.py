@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     google_api_key: SecretStr
     groq_api_key: SecretStr
     llm_model: str
+    database_url: SecretStr
     llm_timeout_seconds: float = 30
     http_timeout_seconds: float = 10
     max_retries: int = 3
